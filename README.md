@@ -13,10 +13,11 @@
 Este proyecto corresponde a la Evaluación Sumativa N° 2 de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de una versión ampliada de LlanquihueTourApp, una aplicación de consola desarrollada en Java para gestionar tours y personas vinculadas a la agencia turística Llanquihue Tour.
 
 El sistema permite cargar información desde dos archivos de texto:
-
+```plaintext
 tours.txt, que contiene los tours disponibles.
-personas.txt, que contiene las personas vinculadas a la empresa y sus respectivos cargos.
 
+personas.txt, que contiene las personas vinculadas a la empresa y sus respectivos cargos.
+```
 Cada línea de los archivos es procesada para crear objetos de las clases Tour, Persona y Cargo. Posteriormente, los objetos son almacenados en colecciones dinámicas ArrayList.
 
 El programa también incorpora validaciones de datos, excepciones personalizadas, composición entre clases y diferentes filtros para mostrar información específica en la consola.
@@ -46,25 +47,25 @@ Las relaciones posibles de una persona con Llanquihue Tour son:
 │   └── tours.txt
 │
 └── 📁 src/
-   ├── 📁 app/
-   │   └── Main.java
-   │
-   ├── 📁 model/
-   │   ├── Cargo.java
-   │   ├── Persona.java
-   │   └── Tour.java
-   │
-   ├── 📁 service/
-   │   ├── GestorPersonas.java
-   │   └── GestorTours.java
-   │
-   └── 📁 util/
-       ├── CargoInvalidoException.java
-       ├── PersonaInvalidaException.java
-       ├── TourInvalidoException.java
-       ├── ValidadorDatosCargo.java
-       ├── ValidadorDatosPersona.java
-       └── ValidadorDatosTour.java
+    ├── 📁 app/
+    │   └── Main.java
+    │
+    ├── 📁 model/
+    │   ├── Cargo.java
+    │   ├── Persona.java
+    │   └── Tour.java
+    │
+    ├── 📁 service/
+    │   ├── GestorPersonas.java
+    │   └── GestorTours.java
+    │
+    └── 📁 util/
+        ├── CargoInvalidoException.java
+        ├── PersonaInvalidaException.java
+        ├── TourInvalidoException.java
+        ├── ValidadorDatosCargo.java
+        ├── ValidadorDatosPersona.java
+        └── ValidadorDatosTour.java
 ```
 
 ---
@@ -76,7 +77,9 @@ Las relaciones posibles de una persona con Llanquihue Tour son:
 Contiene las clases que representan los objetos principales del sistema.
 ```plaintext
 Tour.java: representa un tour turístico. Contiene nombre, tipo, ubicación y precio para una persona adulta.
+
 Persona.java: representa una persona vinculada a Llanquihue Tour. Contiene nombre, relación con la empresa y un objeto de tipo Cargo.
+
 Cargo.java: representa el cargo que desempeña una persona. Contiene nombre del cargo, organización, comuna y tiempo en el cargo.
 ```
 
@@ -85,6 +88,7 @@ Cargo.java: representa el cargo que desempeña una persona. Contiene nombre del 
 Contiene las clases encargadas de leer los archivos externos y crear los objetos correspondientes.
 ```plaintext
 GestorTours.java: lee el archivo tours.txt, separa los datos, valida su contenido y crea objetos de tipo Tour.
+
 GestorPersonas.java: lee el archivo personas.txt, separa los datos, valida su contenido y crea objetos de tipo Persona y Cargo.
 ```
 
