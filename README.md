@@ -151,7 +151,7 @@ Felipe Muñoz González;empleado;coordinador de operaciones;Llanquihue Tour;Llan
 
 1. Clona el repositorio desde GitHub:
 ```plaintext
-git clone https://github.com/mauvalenzuelaf-oss/LlanquihueTourApp.git
+git clone https://github.com/mauvalenzuelaf-oss/LlanquihueTourApp-v2.git
 ```
 
 2. Abre el proyecto en IntelliJ IDEA.
@@ -192,7 +192,7 @@ Nombre: Sabores del Lago Llanquihue | Tipo: ruta gastronomica | Ubicación: Puer
 Nombre: Felipe Muñoz González | Relación con la empresa: empleado | Cargo: coordinador de operaciones | Organización: Llanquihue Tour | Comuna: Llanquihue | Tiempo en el cargo: 3 años
 ```
 
-**Repositorio GitHub:** https://github.com/mauvalenzuelaf-oss/LlanquihueTourApp.git
+**Repositorio GitHub:** https://github.com/mauvalenzuelaf-oss/LlanquihueTourApp-v2.git
 
 **Fecha de entrega:** 22/06/2026
 
