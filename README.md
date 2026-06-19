@@ -14,9 +14,9 @@ Este proyecto corresponde a la Evaluación Sumativa N° 2 de la asignatura *Desa
 
 El sistema permite cargar información desde dos archivos de texto:
 ```plaintext
-tours.txt, que contiene los tours disponibles.
+**tours.txt**: contiene los tours disponibles.
 
-personas.txt, que contiene las personas vinculadas a la empresa y sus respectivos cargos.
+**personas.txt**: contiene las personas vinculadas a la empresa y sus respectivos cargos.
 ```
 Cada línea de los archivos es procesada para crear objetos de las clases Tour, Persona y Cargo. Posteriormente, los objetos son almacenados en colecciones dinámicas ArrayList.
 
@@ -72,47 +72,47 @@ Las relaciones posibles de una persona con Llanquihue Tour son:
 
 ## 🧩 Organización por paquetes
 
-# 1. model
+### 1. model
 
 Contiene las clases que representan los objetos principales del sistema.
 ```plaintext
-Tour.java: representa un tour turístico. Contiene nombre, tipo, ubicación y precio para una persona adulta.
+**Tour.java**: representa un tour turístico. Contiene nombre, tipo, ubicación y precio para una persona adulta.
 
-Persona.java: representa una persona vinculada a Llanquihue Tour. Contiene nombre, relación con la empresa y un objeto de tipo Cargo.
+**Persona.java**: representa una persona vinculada a Llanquihue Tour. Contiene nombre, relación con la empresa y un objeto de tipo Cargo.
 
-Cargo.java: representa el cargo que desempeña una persona. Contiene nombre del cargo, organización, comuna y tiempo en el cargo.
+**Cargo.java**: representa el cargo que desempeña una persona. Contiene nombre del cargo, organización, comuna y tiempo en el cargo.
 ```
 
-# 2. service
+### 2. service
 
 Contiene las clases encargadas de leer los archivos externos y crear los objetos correspondientes.
 ```plaintext
-GestorTours.java: lee el archivo tours.txt, separa los datos, valida su contenido y crea objetos de tipo Tour.
+**GestorTours.java**: lee el archivo tours.txt, separa los datos, valida su contenido y crea objetos de tipo Tour.
 
-GestorPersonas.java: lee el archivo personas.txt, separa los datos, valida su contenido y crea objetos de tipo Persona y Cargo.
+**GestorPersonas.java**: lee el archivo personas.txt, separa los datos, valida su contenido y crea objetos de tipo Persona y Cargo.
 ```
 
-# 3. util
+### 3. util
 
 Contiene las clases encargadas de validar los datos y representar errores específicos del sistema.
 
 Validadores:
 ```plaintext
-ValidadorDatosTour.java
-ValidadorDatosPersona.java
-ValidadorDatosCargo.java
+**ValidadorDatosTour.java**
+**ValidadorDatosPersona.java**
+**ValidadorDatosCargo.java**
 ```
 Excepciones personalizadas:
 ```plaintext
-TourInvalidoException.java
-PersonaInvalidaException.java
-CargoInvalidoException.java
+**TourInvalidoException.java**
+**PersonaInvalidaException.java**
+**CargoInvalidoException.java**
 ```
-# 4. app
+### 4. app
 
 Contiene la clase principal del programa.
 ```plaintext
-Main.java: ejecuta el sistema, carga las colecciones, muestra la información completa y aplica los filtros definidos.
+**Main.java**: ejecuta el sistema, carga las colecciones, muestra la información completa y aplica los filtros definidos.
 ```
 ---
 
@@ -120,7 +120,7 @@ Main.java: ejecuta el sistema, carga las colecciones, muestra la información co
 
 Los archivos se encuentran dentro de la carpeta resources y utilizan el punto y coma (;) como separador.
 
-# Archivo tours.txt
+### Archivo tours.txt
 
 Cada línea debe seguir el siguiente formato:
 ```plaintext
@@ -132,7 +132,7 @@ Ejemplo:
 Ruta Gastronómica de Frutillar;ruta gastronomica;Frutillar;15000
 ```
 
-# Archivo personas.txt
+### Archivo personas.txt
 
 Cada línea debe seguir el siguiente formato:
 ```plaintext
