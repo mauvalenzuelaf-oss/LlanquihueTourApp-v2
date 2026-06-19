@@ -173,8 +173,8 @@ resources/tours.txt
 ## 🖥️ Ejemplo de salida esperada por consola
 
 ```plaintext
-Tours cargados correctamente: 8
-Personas cargadas correctamente: 9
+Tours cargados correctamente: 3
+Personas cargadas correctamente: 2
 
 ===== CATÁLOGO DE TOURS LLANQUIHUE TOUR =====
 Nombre: Ruta Gastronómica de Frutillar | Tipo: ruta gastronomica | Ubicación: Frutillar | Precio: $15000
