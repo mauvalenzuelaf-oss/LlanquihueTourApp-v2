@@ -158,14 +158,15 @@ git clone https://github.com/mauvalenzuelaf-oss/LlanquihueTourApp-v2.git
 
 3. Verifica que la estructura del proyecto contenga las carpetas src y resources.
 
-4. Confirma que el archivo tours.txt esté ubicado en:
+4. Confirma que los archivos tours.txt y personas.txt estén ubicados en:
 ```plaintext
+resources/personas.txt
 resources/tours.txt
 ```
 
-5. Ejecuta el archivo Main.java desde el paquete ui.
+5. Ejecuta el archivo Main.java desde el paquete app.
 
-6. Revisa la salida por consola. El sistema mostrará primero el catálogo completo de tours y luego una lista filtrada por tipo de tour.
+6. Revisa la salida por consola. El sistema mostrará primero el catálogo completo de tours, luego el catálogo completo de personas y, finalmente, listas filtradas por tipo de tour y tipo de persona.
 
 ---
 
