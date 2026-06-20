@@ -1,0 +1,8 @@
+Ruta Gastronómica de Frutillar;ruta gastronomica;Frutillar;15000
+Sabores del Lago Llanquihue;ruta gastronomica;Puerto Varas;18000
+Paseo Lacustre Puerto Varas;paseo lacustre;Puerto Varas;22000
+Navegación por el Lago Todos los Santos;paseo lacustre;Petrohue;30000
+Museo Colonial Alemán;excursion cultural;Frutillar;12000
+Ruta Patrimonial Llanquihue;excursion cultural;Llanquihue;10000
+Tour Familiar Personalizado;tour personalizado;Puerto Varas;35000
+Tour Fotográfico Personalizado;tour personalizado;Ensenada;40000
