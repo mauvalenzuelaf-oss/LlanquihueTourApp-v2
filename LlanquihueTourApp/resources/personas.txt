@@ -1,9 +1,0 @@
-Camila Soto Soto;colaborador;guia turistico;Independiente;Puerto Varas;5
-Felipe Muñoz González;empleado;coordinador de operaciones;Llanquihue Tour;Llanquihue;3
-Javier Lagos Ríos;proveedor;encargado de transporte;Transportes Llanquihue;Llanquihue;8
-Amaya Forch Capilla;proveedor;encargada de alojamiento;Hostal del Lago;Puerto Varas;10
-Daniela Pérez Pérez;colaborador;guia turistico;Independiente;Puerto Montt;2
-Marcos Alvarado Volich;empleado;ejecutivo de reservas;Llanquihue Tour;Llanquihue;4
-Roberto Pérez Pereira;proveedor;encargado de alojamiento;Cabañas del Sur;Frutillar;6
-Aquiles Baeza Rojas;proveedor;encargado de transporte;Lagos Travel;Puerto Montt;7
-Valentina Rojas Muñoz;empleado;administradora;Llanquihue Tour;Llanquihue;6
