@@ -176,8 +176,17 @@ resources/tours.txt
 
 10. Ejecuta el archivo Main.java desde el paquete app.
 
-11. Revisa la salida por consola. El sistema mostrará la cantidad de tours y personas cargadas; el catálogo completo de tours; las personas vinculads; las rutas gastronómicas; los guías turísticos; los empleados; los colaboradores; los proveedores. 
-
+11. Revisa la salida por consola. El sistema mostrará:
+```plaintext
+La cantidad de tours y personas cargadas.
+El catálogo completo de tours.
+Las personas vinculads.
+Las rutas gastronómicas.
+Los guías turísticos.
+Los empleados.
+Los colaboradores.
+Los proveedores. 
+```
 ---
 
 ## 🖥️ Ejemplo abreviado de salida esperada por consola
