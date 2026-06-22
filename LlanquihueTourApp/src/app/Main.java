@@ -10,8 +10,7 @@ import java.util.ArrayList;
 /**
  * Clase principal de LlanquihueTourApp.
  *
- * Ejecuta la carga de archivos, muestra los objetos creados
- * y aplica filtros sobre las colecciones.
+ * Ejecuta la carga de archivos, muestra los objetos creados y aplica filtros sobre las colecciones.
  */
 public class Main {
 
@@ -124,7 +123,7 @@ public class Main {
     /**
      * Filtra y muestra las personas cuyo cargo es guía turístico.
      *
-     * @param listaPersonas lista de personas y entidades
+     * @param listaPersonas lista de personas
      */
     private static void filtrarGuiasTuristicos(
             ArrayList<Persona> listaPersonas) {
@@ -171,7 +170,7 @@ public class Main {
     /**
      * Filtra y muestra las personas relacionadas como colaboradores.
      *
-     * @param listaPersonas lista de personas y entidades
+     * @param listaPersonas lista de personas
      */
     private static void filtrarColaboradores(
             ArrayList<Persona> listaPersonas) {
@@ -191,10 +190,9 @@ public class Main {
     }
 
     /**
-     * Filtra y muestra las personas o entidades relacionadas
-     * como proveedores.
+     * Filtra y muestra las personas relacionadas como proveedores.
      *
-     * @param listaPersonas lista de personas y entidades
+     * @param listaPersonas lista de personas
      */
     private static void filtrarProveedores(
             ArrayList<Persona> listaPersonas) {
