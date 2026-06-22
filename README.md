@@ -69,7 +69,7 @@ Las relaciones posibles de una persona con Llanquihue Tour son:
 │            ├── ValidadorDatosPersona.java
 │            └── ValidadorDatosTour.java
 │
-└── README.md 
+└── 📄 README.md 
 ```
 
 ---
