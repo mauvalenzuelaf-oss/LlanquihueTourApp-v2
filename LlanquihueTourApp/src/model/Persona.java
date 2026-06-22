@@ -21,7 +21,7 @@ public class Persona {
     /**
      * Construye una persona con sus datos principales.
      *
-     * @param nombre nombre de la persona o entidad
+     * @param nombre nombre de la persona
      * @param relacionEmpresa relación con Llanquihue Tour
      * @param cargo objeto que contiene los datos del cargo
      */
