@@ -212,7 +212,7 @@ Nombre: Sabores del Lago Llanquihue | Tipo: ruta gastronomica | Ubicación: Puer
 Nombre: Felipe Muñoz González | Relación con la empresa: empleado | Cargo: coordinador de operaciones | Organización: Llanquihue Tour | Comuna: Llanquihue | Tiempo en el cargo: 3 años
 ```
 
-**Repositorio GitHub:** https://github.com/mauvalenzuelaf-oss/LlanquihueTourApp-v2.git
+**Repositorio GitHub:** https://github.com/mauvalenzuelaf-oss/LlanquihueTourApp-v2
 
 **Fecha de entrega:** 22/06/2026
 
