@@ -116,7 +116,7 @@ Main.java: ejecuta el sistema, carga las colecciones, muestra la información co
 ```
 ---
 
-## 📄 Formato del archivo de datos
+## 📄 Formato de los archivos de datos
 
 Los archivos se encuentran dentro de la carpeta resources y utilizan el punto y coma (;) como separador.
 
@@ -158,25 +158,21 @@ git clone https://github.com/mauvalenzuelaf-oss/LlanquihueTourApp-v2.git
 
 3. Dentro de ella encontrarás otra carpeta llamada LlanqihueTourApp.
 
-4. Abre IntelliJ IDEA.
+4. Abre IntelliJ IDEA y selecciona la opción Open.
 
-5. Selecciona la opción Open.
+5. Busca y selecciona la carpeta interior LlanquihueTourApp-v2/LlanquihueTourApp.
 
-6. Busca y selecciona la carpeta interior LlanquihueTourApp-v2/LlanquihueTourApp.
+6. Verifica que la estructura del proyecto contenga las carpetas src y resources.
 
-7. Verifica que la estructura del proyecto contenga las carpetas src y resources.
-
-8. Confirma que los archivos tours.txt y personas.txt estén ubicados en:
+7. Confirma que los archivos tours.txt y personas.txt estén ubicados en:
 ```plaintext
 resources/personas.txt
 resources/tours.txt
 ```
 
-9. Abre el archivo src/app/Main.java
+8. Ejecuta el archivo Main.java desde el paquete app.
 
-10. Ejecuta el archivo Main.java desde el paquete app.
-
-11. Revisa la salida por consola. El sistema mostrará:
+9. Revisa la salida por consola. El sistema mostrará:
 ```plaintext
 La cantidad de tours y personas cargadas.
 El catálogo completo de tours.
