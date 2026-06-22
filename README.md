@@ -42,30 +42,34 @@ Las relaciones posibles de una persona con Llanquihue Tour son:
 ```plaintext
 📁 LlanquihueTourApp-v2/
 │
-├── 📁 resources/
-│   ├── personas.txt
-│   └── tours.txt
+├── 📁 LlanquihueTourApp/
+│    │
+│    ├── 📁 resources/
+│    │   ├── personas.txt
+│    │   └── tours.txt
+│    │
+│    └── 📁 src/
+│        ├── 📁 app/
+│        │   └── Main.java
+│        │
+│        ├── 📁 model/
+│        │   ├── Cargo.java
+│        │   ├── Persona.java
+│        │   └── Tour.java
+│        │
+│        ├── 📁 service/
+│        │   ├── GestorPersonas.java
+│        │   └── GestorTours.java
+│        │
+│        └── 📁 util/
+│            ├── CargoInvalidoException.java
+│            ├── PersonaInvalidaException.java
+│            ├── TourInvalidoException.java
+│            ├── ValidadorDatosCargo.java
+│            ├── ValidadorDatosPersona.java
+│            └── ValidadorDatosTour.java
 │
-└── 📁 src/
-    ├── 📁 app/
-    │   └── Main.java
-    │
-    ├── 📁 model/
-    │   ├── Cargo.java
-    │   ├── Persona.java
-    │   └── Tour.java
-    │
-    ├── 📁 service/
-    │   ├── GestorPersonas.java
-    │   └── GestorTours.java
-    │
-    └── 📁 util/
-        ├── CargoInvalidoException.java
-        ├── PersonaInvalidaException.java
-        ├── TourInvalidoException.java
-        ├── ValidadorDatosCargo.java
-        ├── ValidadorDatosPersona.java
-        └── ValidadorDatosTour.java
+└── README.md 
 ```
 
 ---
