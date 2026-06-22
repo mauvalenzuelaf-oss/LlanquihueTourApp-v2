@@ -154,27 +154,37 @@ Felipe Muñoz González;empleado;coordinador de operaciones;Llanquihue Tour;Llan
 git clone https://github.com/mauvalenzuelaf-oss/LlanquihueTourApp-v2.git
 ```
 
-2. Abre el proyecto en IntelliJ IDEA.
+2. Abre la carpeta descargada LlanquihueTourApp-v2.
 
-3. Verifica que la estructura del proyecto contenga las carpetas src y resources.
+3. Dentro de ella encontrarás otra carpeta llamada LlanqihueTourApp.
 
-4. Confirma que los archivos tours.txt y personas.txt estén ubicados en:
+4. Abre IntelliJ IDEA.
+
+5. Selecciona la opción Open.
+
+6. Busca y selecciona la carpeta interior LlanquihueTourApp-v2/LlanquihueTourApp.
+
+7. Verifica que la estructura del proyecto contenga las carpetas src y resources.
+
+8. Confirma que los archivos tours.txt y personas.txt estén ubicados en:
 ```plaintext
 resources/personas.txt
 resources/tours.txt
 ```
 
-5. Ejecuta el archivo Main.java desde el paquete app.
+9. Abre el archivo src/app/Main.java
 
-6. Revisa la salida por consola. El sistema mostrará primero el catálogo completo de tours, luego el catálogo completo de personas y, finalmente, listas filtradas por tipo de tour y tipo de persona.
+10. Ejecuta el archivo Main.java desde el paquete app.
+
+11. Revisa la salida por consola. El sistema mostrará la cantidad de tours y personas cargadas; el catálogo completo de tours; las personas vinculads; las rutas gastronómicas; los guías turísticos; los empleados; los colaboradores; los proveedores. 
 
 ---
 
-## 🖥️ Ejemplo de salida esperada por consola
+## 🖥️ Ejemplo abreviado de salida esperada por consola
 
 ```plaintext
-Tours cargados correctamente: 3
-Personas cargadas correctamente: 2
+Tours cargados correctamente: 8
+Personas cargadas correctamente: 9
 
 ===== CATÁLOGO DE TOURS LLANQUIHUE TOUR =====
 Nombre: Ruta Gastronómica de Frutillar | Tipo: ruta gastronomica | Ubicación: Frutillar | Precio: $15000
